@@ -17,7 +17,7 @@ const EXCLUDE_IMAGES = ['avatar1.jpg'];
 const getAllImagesMetadata = (): ImageMetadata[] => {
   const imageModules = import.meta.glob<{ default: ImageMetadata }>(
     // cant be even variable
-    '/src/assets/images/all-images/*.jpg',
+    '/src/assets/images/all-images/gallery-images/*.jpg',
     { eager: true }
   );
 

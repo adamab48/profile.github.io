@@ -9,7 +9,7 @@ import { Image } from 'astro:assets';
 import { CONFIG_CLIENT } from '../config/client';
 import { IMAGE_SIZES, TW_SCREENS } from '../constants/image';
 import Link from '../components/Link.astro';
-import Electronics1Image from '../assets/images/all-images/electronics1.jpg';
+import Volley from '../assets/images/all-images/volley.jpg';
 
 
 export const { AUTHOR_GITHUB, AUTHOR_LINKEDIN, AUTHOR_TWITTER, AUTHOR_YOUTUBE } = CONFIG_CLIENT;
@@ -22,13 +22,13 @@ export const imageSizes = {
 
 # About
 
-<Image {...imageSizes} src={Electronics1Image} alt="Veronica transmitter board" class="md:max-w-sm lg:max-w-md md:float-right md:mt-2 md:ml-8" /> 
+<Image {...IMAGE_SIZES.FIXED.POST_CARD_SMALL} src={Volley} alt="Vollyball" class="md:max-w-sm lg:max-w-md md:float-right md:mt-2 md:ml-8" /> 
 
-My name is Nemanja, I am a full-stack developer with experience in React.js, Next.js, and Node.js. In the past, I have worked with C# and ASP.NET, and lately, I have developed an interest in Python and FastAPI. I also like to experiment with DevOps and homelab self-hosting.
+My name is Adam, I am a human ?
 
-My hobbies are fishing, lure building, bicycling, playing guitar, composing in FL Studio, and DIY electronics.
+My hobbies are watching fast cars race, volley ball and wasting time automating things that I could do manually in a fraction of the time.
 
-If you want to contact me about coding, or if you need a companion for fishing or jamming, use the links below.
+If you want to contact me use the links below.
 
 <p class="my-2 flex gap-1 flex-col xs:flex-row">
   <label class="font-bold">GitHub:</label>

@@ -20,8 +20,8 @@ const getAllImagesMetadata = (): ImageMetadata[] => {
     { eager: true }
   );
 
-  // convert map to array
   const imagesMetadata = Object.keys(imageModules)
+  // convert map to array
     // filter excluded filenames
     .filter((path) => !EXCLUDE_IMAGES.some((excludedFileName) => path.endsWith(excludedFileName)))
     // return metadata array
