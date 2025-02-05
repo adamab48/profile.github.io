@@ -108,6 +108,9 @@ const getImageType = (imagePath: string) => {
     case '.jpeg':
       imageType = 'jpeg';
       break;
+    case '.svg':
+      imageType = 'svg+xml';
+      break;  
     default:
       throw new Error('Unsupported heroImage file extension');
   }
