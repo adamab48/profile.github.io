@@ -22,7 +22,6 @@ const configClientData: ConfigClientType = {
   AUTHOR_GITHUB: 'https://github.com/adamab48',
   AUTHOR_LINKEDIN: 'https://www.linkedin.com/in/adam-abichou/',
   AUTHOR_TWITTER: 'https://x.com/Fight4everZZ',
-  AUTHOR_YOUTUBE: 'https://www.youtube.com/@nemanja_codes',
   REPO_URL: 'https://github.com/nemanjam/nemanjam.github.io',
 };
 

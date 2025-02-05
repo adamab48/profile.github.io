@@ -54,7 +54,6 @@ export const configClientSchema = processEnvSchema
       AUTHOR_GITHUB: z.string().url(),
       AUTHOR_LINKEDIN: z.string().url(),
       AUTHOR_TWITTER: z.string().url(),
-      AUTHOR_YOUTUBE: z.string().url(),
       REPO_URL: z.string().url(),
     })
   );
